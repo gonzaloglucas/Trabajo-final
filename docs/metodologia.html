@@ -77,71 +77,42 @@
   <div class="container">
 <h1 id="pero-cómo-hemos-hecho-todo-esto">Pero… ¿Cómo hemos hecho todo esto?</h1>
 <figure>
-<img src="https://user-images.githubusercontent.com/90325917/145499554-cbe8bdf3-1e19-467a-a47a-f1f059a8f9f8.jpg" alt="" /><figcaption aria-hidden="true"></figcaption>
+<img src="https://user-images.githubusercontent.com/90325917/145499554-cbe8bdf3-1e19-467a-a47a-f1f059a8f9f8.jpg" alt="metodologia-estrategia-contenidos-coronavirus" /><figcaption aria-hidden="true">metodologia-estrategia-contenidos-coronavirus</figcaption>
 </figure>
 <h3 id="no-ha-sido-sencillo-ni-mucho-menos-pero-aquí-podrás-leer-un-resúmen-de-la-metodología">No ha sido sencillo ni mucho menos, pero aquí podrás leer un resúmen de la metodología:</h3>
 <ul>
 <li>En primer lugar me he asegurado de tener en mi <em>tree</em> los elementos necesarios.</li>
 <li>He traspasado bootstrap-min.css y sticky-footer-navbar.css dentro de mi carpeta css.</li>
 <li>Además hemos introducido js bootstrap.bundle.min.js dentro de la carpeta js.</li>
-<li>Mientras tanto, me he creado los siguientes archivos en lenguaje <em>markdown</em> desde <strong>Github</strong>:
+<li>Acto seguido, he concordado las rutas para que tanto el <em>css</em> como el <em>js</em> respondan a mi repositorio en el trabajo y no a la carpeta assets a la hora de crear la página web.</li>
+<li>Mientras tanto, me he creado los siguientes archivos en lenguaje <em>markdown</em> desde <strong>Github</strong>, o por defecto en caso de los comentarios, desde la <strong>Terminal</strong>:
 <ul>
-<li><o a través de la herramienta <strong>Pandoc</strong> el lenguaje a <em>html5</em>.</li>
-<li>Me he creado colateralmente los siguientes documentos en lenguaje html:
-<ul>
-<li><strong>inicio.html</strong></li>
-<li><strong>metodología.html</strong></li>
-</ul></li>
-<li>A través del <em>index.html</em> me he creado con el comando <strong>cp</strong> varias copias:
-<ul>
-<li><strong>cabecera.html</strong></li>
-<li><strong>pie.html</strong></li>
-</ul></li>
-<li>Entre todos estos procesos iniciales también hemos convertido el lenguaje markdown de las cuatro prácticas iniciales a html:
-<ul>
-<li><strong>practica1.html</strong></li>
-<li><strong>practica2.html</strong></li>
-<li><strong>practica3.html</strong></li>
-<li><strong>practica4.html</strong></li>
-</ul></li>
-<li>Para que finalmente al utilizar el comando <em>cat</em>, juntemos cabecera, práctica y pie.
-<ul>
-<li><strong>practica1final.html</strong></li>
-<li><strong>practica2final.html</strong></li>
-<li><strong>practica3final.html</strong></li>
-<li><strong>practica4final.html</strong></li>
-</ul></li>
-<li>Respecto a los detalles, he modificado el <em>title</em> del index.html a <strong>Mipágina web | Gonzalo</strong></li>
-<li>En <em>Fixed navbar</em>, hemos hecho varios procedimientos:
-<ul>
-<li>Primero hemos cambiado los nombres de la cabecera, creando espacio para dos clases más y borrando una de faceta invisible.</li>
-<li>En segundo lugar hemos cambiado el nombre a Práctica 1, 2, 3 y 4 y hemos adjuntado su html delante para correlacionarlo.
-<ul>
-<li><em>Lo mismo ha ocurrido con este mismo documento!!</em></li>
-</ul></li>
-</ul></li>
-</ul>strong>inicio.md</strong></li>
+<li><strong>inicio.md</strong></li>
 <li><strong>metodología.md</strong></li>
+<li><strong>Comentario-infografia-uno.md</strong></li>
+<li><strong>Comentario-infografia-dos.md</strong></li>
+<li><strong>Comentario-infografia-tres.md</strong></li>
+<li><strong>Comentario-infografia-cuatro.md</strong></li>
 </ul></li>
-<li>Por otro lado, he ido convirtiendo a través de la herramienta <strong>Pandoc</strong> el lenguaje a <em>html5</em>.</li>
+<li>Por otro lado, he ido convirtiendo a través de la herramienta <strong>Pandoc</strong> el lenguaje de <em>markdown</em> a <em>html5</em>.</li>
 <li>Me he creado colateralmente los siguientes documentos en lenguaje html:
 <ul>
 <li><strong>inicio.html</strong></li>
 <li><strong>metodología.html</strong></li>
 </ul></li>
-<li>A través del <em>index.html</em> me he creado con el comando <strong>cp</strong> varias copias:
+<li>A través del <em>index.html</em> me he creado con el comando <strong>cp</strong> varias copias. Una contiene el principio y otra el final:
 <ul>
-<li><strong>cabecera.html</strong></li>
-<li><strong>pie.html</strong></li>
+<li><strong>cabecera.html</strong> (con el css de acuerdo a mi ruta)</li>
+<li><strong>pie.html</strong> (con el js de acuerdo a mi ruta)</li>
 </ul></li>
-<li>Entre todos estos procesos iniciales también hemos convertido el lenguaje markdown de las cuatro prácticas iniciales a html:
+<li>Entre todos estos procesos iniciales también hemos convertido el lenguaje markdown de los cuatro comentarios iniciales a html:
 <ul>
 <li><strong>practica1.html</strong></li>
 <li><strong>practica2.html</strong></li>
 <li><strong>practica3.html</strong></li>
 <li><strong>practica4.html</strong></li>
 </ul></li>
-<li>Para que finalmente al utilizar el comando <em>cat</em>, juntemos cabecera, práctica y pie.
+<li>Para que finalmente al utilizar el comando <em>cat</em>, juntemos cabecera, práctica y pie con cada una.
 <ul>
 <li><strong>practica1final.html</strong></li>
 <li><strong>practica2final.html</strong></li>
@@ -149,12 +120,15 @@
 <li><strong>practica4final.html</strong></li>
 </ul></li>
 <li>Respecto a los detalles, he modificado el <em>title</em> del index.html a <strong>Mipágina web | Gonzalo</strong></li>
+<li>En el pie he añadido en el texto <em>muted</em> el título <strong>Periodismo de Datos | Curso 21/22</strong>.</li>
 <li>En <em>Fixed navbar</em>, hemos hecho varios procedimientos:
 <ul>
 <li>Primero hemos cambiado los nombres de la cabecera, creando espacio para dos clases más y borrando una de faceta invisible.</li>
 <li>En segundo lugar hemos cambiado el nombre a Práctica 1, 2, 3 y 4 y hemos adjuntado su html delante para correlacionarlo.
 <ul>
-<li><em>Lo mismo ha ocurrido con este mismo documento!!</em></li>
+<li><em>Lo mismo ha ocurrido con este mismo documento sobre metodología!!</em></li>
+</ul></li>
+</ul></li>
 </ul>
 </div>
 </main>
